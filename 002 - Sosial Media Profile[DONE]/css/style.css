@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #141414;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+
+}
+
+.card{
+    width: 400px;
+    border-radius: 25px;
+    padding-bottom: 25px;
+    background-color: #1F1F1F;
+}
+
+.card_container{
+    width:250px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.image_box{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../IMG/avatar-jessica.jpeg);
+    background-repeat: no-repeat;
+    image-resolution: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.person_name{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.person_location{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #C4F82A;
+}
+
+.person_description{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.BTN_profile{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.BTN_profile:hover{
+    background-color: #C4F82A;
+    color: #141414;
+}
