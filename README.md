@@ -1,3 +1,3 @@
 # frontendmentor-free-newbie
-All front-end mentor tasks; 
-level: newbie; cost: free
+All front-end mentor tasks; </br>
+level: newbie; cost: free;
